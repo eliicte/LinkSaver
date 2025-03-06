@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "version": "1.2",
+    "name": "Link Saver",
+    "description": "Save and manage important links for later reference.",
+    "action": {
+        "default_popup": "Chrome Extension.html",
+        "default_icon": "icon.png"
+    }, 
+    "permissions": [
+        "tabs",
+        "clipboardWrite",
+        "storage"
+    ]
+}
